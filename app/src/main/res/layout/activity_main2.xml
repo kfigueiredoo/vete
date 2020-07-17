@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+tools:context=".Main2Activity">
+
+<TextView
+    android:id="@+id/txtNomeh"
+    android:layout_width="260dp"
+    android:layout_height="29dp"
+    app:layout_constraintBottom_toTopOf="@+id/txtCast"
+    app:layout_constraintEnd_toEndOf="@+id/txtCast"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/txtCast"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.347" />
+
+    <TextView
+        android:id="@+id/txtCast"
+        android:layout_width="262dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtanimal"
+        app:layout_constraintEnd_toEndOf="@+id/txtanimal"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtanimal" />
+
+    <TextView
+        android:id="@+id/txtanimal"
+        android:layout_width="263dp"
+        android:layout_height="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="272dp" />
+</LinearLayout>

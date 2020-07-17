@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Veterinário</string>
+    <string name="Nome">Insira o nome do animal</string>
+    <string name="Especie">Selecione a espécie:</string>
+    <string name="Cachorro">Cachorro</string>
+    <string name="Gato">Gato</string>
+    <string name="Coelho">Coelho</string>
+    <string name="Hamster">Hamster</string>
+    <string name="Castrado">Castrado</string>
+    <string name="NCastrado">Não Castrado</string>
+    <string name="Registrar">Registrar</string>
+</resources>
